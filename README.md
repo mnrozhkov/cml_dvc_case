@@ -8,6 +8,13 @@ This repository contains a sample project using [CML](https://github.com/iterati
 
 The key file enabling these actions is `.github/workflows/cml.yaml`.
 
+## Prepare environment 
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Secrets and environmental variables
 In this example, `.github/workflows/cml.yaml` contains three environmental variables that are stored as repository secrets.
 
