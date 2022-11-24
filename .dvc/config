@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = s3://dvc-public/remote/cml_example
+    url = gdrive://1c6nO-x4se9rCEX5MjjxfqCUGZ-T3zIc9
